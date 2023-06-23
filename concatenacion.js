@@ -35,3 +35,24 @@ pregunta = "que tal va todo?";
 frase = saludo.concat(pregunta);
 
 document.write(frase)
+
+//metodo de backticks
+
+nombre = "bruno acosta";
+
+frase = `soy ${nombre} y estoy caminando`;
+
+document.write(frase)
+
+//escape de backticks comillas simples
+
+frase = 'soy `bruno` y estoy caminando'
+
+document.write(frase)
+
+//escape de backticks comillas dobles
+
+frase = "soy `bruno` y estoy caminando"
+
+document.write(frase)
+

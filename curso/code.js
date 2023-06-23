@@ -1,9 +1,11 @@
-saludo = "hola amigos de la web ";
+num1 = 12;
 
-pregunta = "que tal va todo?";
+num2 = 24;
 
-frase = saludo.concat(pregunta);
+num3 = 92;
 
-document.write(frase)
+num4 = 43;
 
+respuesta = (num1 > num2 || num2 < 3) && (num1 < num2 || num2 > 3)
 
+document.write(!respuesta)
